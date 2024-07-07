@@ -20,5 +20,5 @@ export default defineConfig({
   build: {
     outDir: "./docs",
   },
-  base: "/<REPO_NAME>/", // Replace <REPO_NAME> with your GitHub repository name
+  base: "/Keyng-Coin/", // Replace <REPO_NAME> with your GitHub repository name
 });
