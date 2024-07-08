@@ -16,7 +16,7 @@ export const Game = () => {
     [navigate],
   );
 
-  const Scene = useCreateFallingVirusesScene(handleGameEndCallback)
+  const Scene = useCreateFallingVirusesScene(handleGameEndCallback);
   const config: Phaser.Types.Core.GameConfig = useMemo(
     () => ({
       type: Phaser.AUTO,

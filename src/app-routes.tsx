@@ -6,7 +6,6 @@ import { Leaderboard } from "./pages/leaderboard";
 import { Result } from "./pages/result";
 import { Game } from "./pages/game";
 
-
 const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Layout />}>
@@ -18,6 +17,6 @@ const AppRoutes = () => (
     <Route path="/game" element={<Game />} />
     <Route path="*" element={<Navigate to="/" />} />
   </Routes>
-)
+);
 
 export default AppRoutes;

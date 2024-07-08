@@ -1,7 +1,7 @@
 import { useIntegration } from "@tma.js/react-router-integration";
 import { initNavigator, useLaunchParams } from "@tma.js/sdk-react";
 import { useEffect, useMemo } from "react";
-import { BrowserRouter,  Router, } from "react-router-dom";
+import { BrowserRouter, Router } from "react-router-dom";
 import { useInitUser } from "./hooks/use-init-user";
 import { isRunningWithinTelegram } from "./lib/storage";
 import AppRoutes from "./app-routes";
@@ -27,7 +27,7 @@ function App() {
       <BrowserRouter>
         <AppRoutes />
       </BrowserRouter>
-    )
+    );
   }
 
   return (
