@@ -1,3 +1,4 @@
+import React from 'react';
 import { SDKProvider, useLaunchParams } from "@tma.js/sdk-react";
 import { ConvexProvider, ConvexReactClient } from "convex/react";
 import React, { useEffect, type FC } from "react";
