@@ -9,7 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "deploy": "gh-pages -d docs",
-    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,css,scss,md}'" // Add this line
+    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,css,scss,md}'"
   },
   "dependencies": {
     "@radix-ui/react-scroll-area": "^1.0.5",
