@@ -1,3 +1,4 @@
+import React from 'react';
 import { useIntegration } from "@tma.js/react-router-integration";
 import { initNavigator, useLaunchParams } from "@tma.js/sdk-react";
 import { useEffect, useMemo } from "react";
