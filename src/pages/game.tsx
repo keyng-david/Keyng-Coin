@@ -1,4 +1,3 @@
-import React from 'react';
 import Phaser from "phaser";
 import { useCallback, useEffect, useMemo, useRef } from "react";
 import { useNavigate } from "react-router-dom";
